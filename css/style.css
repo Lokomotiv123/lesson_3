@@ -1,0 +1,75 @@
+/* селектор усіх теги а */
+a{
+	color: rgb(0, 51, 255);
+}
+/* селектори тегів з конкретними класами */
+.rozdil1{
+	color: rgb(16, 93, 7);
+}
+.rozdil2{
+	color: rgb(135, 8, 246);
+}
+.rozdil3{
+	color: rgb(101, 94, 51);
+}
+
+/* селектори тегів з конкретними ІД */
+#climate{
+	color: rgb(235, 12, 12);
+}
+#getthere{
+	color: rgb(240, 12, 229);
+}
+#whattodo{
+	color: rgb(13, 235, 28);
+}
+
+#sport{
+	color: chocolate;
+}
+
+.zmist-perelik a, ol {
+	color: rgb(250, 14, 14);
+}
+
+mark{
+	color: rgb(9, 33, 193);
+}
+
+.marswinds {
+	color: crimson;
+}
+
+.red-planet {
+	color: rgb(245, 13, 13);
+}
+
+/* тільки теги дів з класом rozdil5  */
+div.rozdil5{
+	color: yellowgreen;
+}
+
+/* обєкт дів з одночано з двома класами rozdil3 та spusok */
+.rozdil3.spusok{
+	color: coral;
+}
+
+/* усі теги p в середині тегу div з класом rozdil4 */
+.rozdil4 > p{
+	color: green;
+}
+
+/* всі теги p на тому самому рівнів вкладеності, що і обєкт з класом rozdil5 */
+.rozdil5 ~ p{
+	color: blueviolet;
+}
+
+/* перший тег p на тому самому рівні вкладеності що і обєкт з класом rozdil5 */
+.rozdil5 + p{
+	color: rgb(233, 106, 21);
+}
+
+/* усі обєкти, які вкладені до div з класом  preambula*/
+.preambula *{
+	color: blue;
+}
